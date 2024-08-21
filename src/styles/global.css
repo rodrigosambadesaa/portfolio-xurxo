@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    min-width: 0; /*Fix problems of overflow with flex items in flex or grid*/
+    min-width: 0; /* Fix problems of overflow with flex items in flex or grid */
   }
   
   :root {
@@ -24,9 +24,7 @@
   
   p {
     text-wrap: pretty;
-  }
-  
-  
+  }  
   
   @media (prefers-reduced-motion: reduce) {
     html {
